@@ -1,0 +1,2 @@
+File | Description | Source
+39001_thames.csv | Maximum flow (in cms) from the Thames river at Kingston | Data from the National River Flow Archive of the UK Centre for Ecology & Hydrology, more information at: https://nrfa.ceh.ac.uk/annual-maximum.
