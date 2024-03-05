@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["frequency_analysis",]
+
+[project]
+name = "frequency_analysis"
+description = "A simple package for GEV frequency analysis"
+version = "0.1.0"
+authors = [
+    { name = "Manuel Álvarez Chaves", email = "malvarez062@gmail.com" }
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scipy"
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyterlab >= 4.1.2",
+	"matplotlib >= 3.8.3",
+	"numpy >= 1.26.4",
+	"pandas >= 2.2.1",
+	"pyarrow >= 15.0.0",
+	"scipy >= 1.12.0",
+	"tqdm >= 4.66.2",
+	"xarray >= 2024.2.0",
+]

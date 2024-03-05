@@ -98,3 +98,6 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Miscellaneous
+data/84111_SantaLucia.csv
