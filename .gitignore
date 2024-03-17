@@ -100,4 +100,8 @@ dmypy.json
 cython_debug/
 
 # Miscellaneous
-data/84111_SantaLucia.csv
+data/*
+!data/39001_Thames.csv
+
+reports/*
+!reports/39001_Thames/
